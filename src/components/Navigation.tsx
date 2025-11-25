@@ -43,7 +43,7 @@ const Navigation = () => {
             onClick={() => scrollToSection("home")}
             className="text-2xl font-bold text-gradient cursor-pointer"
           >
-            ML Portfolio
+            Himmat Magar
           </button>
 
           {/* Desktop Navigation */}

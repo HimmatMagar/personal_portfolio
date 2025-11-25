@@ -11,22 +11,22 @@ const Skills = () => {
     {
       icon: Brain,
       title: "Machine Learning",
-      skills: ["TensorFlow", "PyTorch", "scikit-learn", "XGBoost", "Keras", "JAX"],
+      skills: ["TensorFlow", "scikit-learn", "XGBoost", "Keras"],
     },
     {
       icon: Code2,
       title: "Programming",
-      skills: ["Python", "R", "Julia", "C++", "SQL", "JavaScript"],
+      skills: ["Python", "PHP", "SQL"],
     },
     {
       icon: Database,
       title: "Data & Tools",
-      skills: ["Pandas", "NumPy", "Spark", "Airflow", "MLflow", "DVC"],
+      skills: ["Pandas", "NumPy", "FastAPI"],
     },
     {
       icon: Cloud,
       title: "Cloud & DevOps",
-      skills: ["AWS", "GCP", "Docker", "Kubernetes", "CI/CD", "Terraform"],
+      skills: ["Docker"],
     },
   ];
 

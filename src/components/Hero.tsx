@@ -48,7 +48,7 @@ const Hero = () => {
         >
           <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
             Machine Learning
-            <span className="block text-gradient mt-2">Engineer & Researcher</span>
+            <span className="block text-gradient mt-2">Engineer & Developer</span>
           </h1>
         </motion.div>
 
@@ -82,18 +82,6 @@ const Hero = () => {
           >
             Get in Touch
           </Button>
-        </motion.div>
-
-        <motion.div
-          className="absolute bottom-10 left-1/2 -translate-x-1/2"
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1, y: [0, 10, 0] }}
-          transition={{
-            opacity: { delay: 1, duration: 0.6 },
-            y: { delay: 1.5, duration: 2, repeat: Infinity },
-          }}
-        >
-          <ArrowDown className="w-8 h-8 text-primary" />
         </motion.div>
       </div>
     </section>

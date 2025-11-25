@@ -11,10 +11,10 @@ const Contact = () => {
   const isInView = useInView(ref, { once: true, margin: "-100px" });
 
   const socials = [
-    { icon: Github, href: "#", label: "GitHub" },
-    { icon: Linkedin, href: "#", label: "LinkedIn" },
+    { icon: Github, href: "https://github.com/HimmatMagar", label: "GitHub" },
+    { icon: Linkedin, href: "https://www.linkedin.com/in/himmat-magar/", label: "LinkedIn" },
     { icon: Twitter, href: "#", label: "Twitter" },
-    { icon: Mail, href: "mailto:your.email@example.com", label: "Email" },
+    { icon: Mail, href: "himmatmagar007@gmail.com", label: "Email" },
   ];
 
   return (
@@ -78,7 +78,7 @@ const Contact = () => {
             >
               <h4 className="text-lg font-semibold mb-3">Quick Info</h4>
               <div className="space-y-2 text-muted-foreground">
-                <p>📍 Location: San Francisco, CA</p>
+                <p>📍 Location: Pokhara, Nepal</p>
                 <p>💼 Open to: Freelance & Full-time</p>
                 <p>🌐 Response time: Within 24 hours</p>
               </div>
